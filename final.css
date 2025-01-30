@@ -1,0 +1,1247 @@
+* { box-sizing: border-box; }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Index  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~  Body  ~~~~~~~~~~~~~~~*/
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+#wrapper { 
+  background-image: url(images/Background.png);
+  background-size: cover;
+  display: flex;
+  position:fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+  overflow-y: hidden;
+}
+
+/*~~~~~~~~~~~~~~~  Header  ~~~~~~~~~~~~~~~*/
+
+
+.mobilewrapper{
+  max-width: fit-content;
+}
+
+
+.homewrapper {
+  background-image: url(images/Base\ Mobile.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 55% 100%;
+  height: 70vw;
+  margin-top: 5vw;
+}
+
+
+.homecontainer {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-top: 8vw;
+  width: 100vw;
+  height: 38vw;
+}
+
+
+.homecontainer img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  max-width: 50%;
+}
+
+
+.htitle {
+  color: #3F0032;
+  text-shadow:  0px 5px 5px #fffdfd31;
+  text-align: center;
+  transform: translate(6vw, 0vw);
+  margin-right: 11.5%;
+  margin-top: .5vw;
+  font-size: 2vw;
+}
+
+
+.hheader {
+  color: #3F0032;
+  text-shadow:  0px 5px 5px #fffdfd31;
+  text-align: center;
+  padding-top: 1em;
+  transform: translate(6vw, .5vw);
+  margin-right: 11.5%;
+  font-size: 1.5vw;
+}
+
+
+/*~~~~~~~~~~~~~~~ Images ~~~~~~~~~~~~~~~*/
+
+
+.imagecenter {
+  margin-top: 2vw;
+  margin-left: 35vw;
+  overflow: hidden;
+}
+
+
+#mainimg{
+  margin-left: 1vw;
+  margin-bottom: 1vw;
+}
+
+
+/*~~~~~~~~~~~~~~~ Buttons ~~~~~~~~~~~~~~~*/
+
+
+.btn {
+  width: 75vw;
+  margin-left: 4vw;
+  border: none;
+  transition: transform .4s;
+}
+
+
+.btn:hover {
+  transform: translate(1vw, -.25vw);
+}
+
+
+a {
+  text-decoration: none;
+}
+
+/*~~~~~~~~~~~~~~~ Main Content ~~~~~~~~~~~~~~~*/
+
+
+#mainimg{
+  margin-left: 15vw;
+}
+
+
+.main {
+  vertical-align: bottom;
+  overflow: hidden;
+  margin-top: 1vw;
+  margin-left: -6vw;
+  overflow-y: hidden;
+}
+
+
+#homeicon {
+  float: left;
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 5vw;
+  height: 5vw;
+}
+
+
+.icontext {
+  display: inline;
+  position: relative;
+  font-size: 1.5vw;
+  margin-left: .5vw;
+  top: .5vw;
+  text-decoration: none;
+}
+
+
+.icontext:link {
+  color: #3f1e8d;
+}
+
+
+.icontext:visited {
+  color: #3F0032;
+}
+
+
+.icontext:hover {
+  color: #5c1366;
+}
+
+
+/*~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~*/
+
+
+footer { 
+  color: #3F0032;
+  margin-top: 15vw;
+  padding-top: 7vw;
+  padding-bottom: 7vw;
+  font-family:Georgia;
+  font-size: 1vw;
+  font-style: italic; 
+  text-align: center;
+  
+}
+
+
+/*~~~~~~~~~~~~~~~ Misc Index Format ~~~~~~~~~~~~~~~*/
+
+h1{
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ToS  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.toswrapper {
+  background-image: url(images/Base\ Mobile.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 75% 100%;
+  height: 70vw;
+  margin-top: 5vw;
+}
+
+
+.toscontainer {
+  margin-left: 22vw;
+  margin-right: 22vw;
+}
+
+
+/*~~~~~~~~~~~~~~~ ToS Buttons ~~~~~~~~~~~~~~~*/
+
+
+.tosbtn {
+  display:inline-block;
+  margin-bottom: .5vw;
+  transition: transform .4s;
+}
+
+
+.tosbtn:hover {
+  transform: translate(.5vw, -.25vw);
+}
+
+
+.tosbtnall {
+  padding-top: 8vw;
+}
+
+
+/*~~~~~~~~~~~~~~~ ToS Main Content ~~~~~~~~~~~~~~~*/
+
+
+.tosmain {
+  margin-top: 2vw;
+}
+
+
+.toshead {
+  display:inline-block;
+  color: #3F0032;
+  font-size: 1.75vw;
+  text-align: center;
+  margin-bottom: .5vw;
+  font-weight: bold;
+}
+
+
+.toslist {
+  display: block;
+  color: #3F0032;
+  text-shadow:  5px 5px 5px #fffdfd31;
+  font-size: 1.25vw;
+  margin-top: -.5vw;
+  word-wrap: break-word;
+  width: 55vw;
+  font-weight: bold;
+}
+
+
+.toscaption {
+  color: #3F0032;
+  font-size: 1vw;
+  margin-top: -1.5vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  About  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.aboutwrapper {
+  background-image: url(images/Base\ Mobile.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 65vw 70vw;
+  height: 70vw;
+  margin-top: 5vw;
+}
+
+
+.aboutcontainer {
+  margin-left: 22vw;
+  margin-right: 22vw;
+}
+
+
+/*~~~~~~~~~~~~~~~ About Buttons ~~~~~~~~~~~~~~~*/
+
+
+.aboutbtn {
+  display:inline-block;
+  transition: transform .4s;
+}
+
+
+.aboutbtn:hover {
+  transform: translate(.5vw, -.25vw);
+}
+
+
+.aboutbtnall {
+  padding-top: 8vw;
+  margin-left: 1vw;
+}
+
+
+/*~~~~~~~~~~~~~~~ About Main Content ~~~~~~~~~~~~~~~*/
+
+
+.aboutmain {
+  margin-top: 2vw;
+  max-height: 50vw;
+  max-width: 55vw;
+  overflow: auto;
+}
+
+
+.abspacer1 {
+  margin-left: 19.5vw;
+  margin-bottom: 1vw;
+}
+
+
+.abspacer2 {
+  margin-left: 22vw;
+  margin-bottom: 1vw;
+}
+
+
+.abspacer3 {
+  margin-left: 22.5vw;
+  margin-bottom: 1vw;
+}
+
+
+.abspacer4 {
+  margin-left: 20vw;
+  margin-bottom: 1vw;
+}
+
+
+.abspacer5 {
+  margin-left: 20.25vw;
+  margin-bottom: 1vw;
+}
+
+
+.abtitle {
+  display: block;
+  color: #3F0032;
+  font-size: 1.75vw;
+  margin-left: 23vw;
+}
+
+
+.abhead {
+  display: block;
+  color: #3F0032;
+  font-size: 1.25vw;
+  margin-top: .25vw;
+  line-height: 1vw;
+}
+
+
+.abtext {
+  display: block;
+  color: #3F0032;
+  text-shadow:  5px 5px 5px #fffdfd31;
+  font-size: 1vw;
+  font-weight: bold;
+  margin-left: 1.25vw;
+  margin-top: -.5vw;
+  line-height: 1vw;
+  text-align: center;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Comm Page  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.commwrapper {
+  background-image: url(images/Base.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 75% 80%;
+  height: 70vw;
+  margin-top: 1vw;
+}
+
+
+.commcontainer {
+  margin-top: 12vw;
+  margin-left: 22vw;
+  margin-right: 22vw;
+}
+
+
+.commhead {
+  color: #3F0032;
+  font-weight: bold;
+  font-size: 3vw;
+  text-align: center;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+
+/*~~~~~~~~~~~~~~~ Comm Buttons ~~~~~~~~~~~~~~~*/
+
+
+.commbtnall {
+margin-left: 16vw;
+}
+
+
+.commbtn {
+  display: block;
+  margin-bottom: .5vw;
+  transition: transform .4s;
+}
+
+
+.commbtn:hover {
+  transform: translate(.5vw, -.25vw);
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  OC Gallery  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.gallerytext, .gallerytext2, .gallerytext3 {
+  color: #3F0032;
+  font-size: 2.5vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+.gallerytext, .gallerytext2 {
+  margin-left: 24vw;
+}
+
+
+.gallerytext3 {  
+  margin-left: 14vw;
+}
+
+
+.gallerysubtext, .gallerysubtext2, .gallerysubtext3 {
+  color: #3F0032;
+  font-size: 1.75vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.gallerysubtext, .gallerysubtext2 {
+  margin-left: 10vw;
+}
+
+
+.gallerysubtext3 {
+  margin-left: 12vw;
+}
+
+
+.charscroll {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+
+.charbody {
+  position: relative;
+  z-index: 10;
+  top: 21vw;
+}
+
+
+/*~~~~~~~~~~~~~~~ OC Buttons ~~~~~~~~~~~~~~~*/
+
+
+.charbtnall {
+  margin: 0%;
+  margin-left: 8vw;
+}
+
+
+.charbtn {
+  display:inline-block;
+  margin-bottom: .5vw;
+  transition: transform .4s;
+}
+
+
+.charbtn:hover {
+  transform: translate(.5vw, -.25vw);
+}
+
+
+/*~~~~~~~~~~~~~~~ OC Slideshow ~~~~~~~~~~~~~~~*/
+
+
+.charcontainer {
+  margin-left: 22vw;
+  margin-right: 22vw;
+  margin-top: 8vw;
+  max-height: 75vw;
+}
+
+
+.chartitle {
+  color: #3F0032;
+  font-size: 2.5vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.charsubtitle {
+  font-size: 1.5vw;
+}
+
+
+.gallerynotif {
+  display: block;
+  color: #c0170b;
+  text-align: center;
+  font-size: 1.75vw;
+  font-weight: bold;
+  margin-top: 1vw;
+}
+
+
+.gallerytextblock {
+  margin-top: 8vw;
+}
+
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2, .mySlides3 
+{display: none}
+img {vertical-align: middle;}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 50vw;
+  position: relative;
+  margin: auto;
+  margin-bottom: 3vw;
+  margin-top: 2vw;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 2vw;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5vw;
+  transition: 0.6s ease;
+  border-radius: 10px 0 0 10px;
+  user-select: none;
+}
+
+
+.prev {
+  margin-left: -5.5vw;
+}
+
+
+/* Position the "next button" to the right */
+.next {
+  margin-left: 51vw;
+  border-radius: 0px 10px 10px 0px;
+}
+
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+
+/*~~~~~~~~~~~~~~~ OC Background ~~~~~~~~~~~~~~~*/
+
+
+.charwrapper {
+  position: relative;
+  top: -88vw;
+  width: 100%;
+  height: 15vw;
+  left: 0;
+
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Logo Gallery  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.logobody {
+  position: relative;
+  z-index: 10;
+  top: 21vw;
+}
+
+
+/*~~~~~~~~~~~~~~~ Logo Slideshow ~~~~~~~~~~~~~~~*/
+
+
+.logotext, .logotext2 {
+  color: #3F0032;
+  font-size: 2.5vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.logotext {
+  margin-left: 22vw;
+}
+
+
+.logotext2 {
+  margin-left: 16.5vw;
+
+}
+
+
+.logosubtext, .logosubtext2, .logosubtext3, .logosubtext4 {
+  color: #3F0032;
+  font-size: 2vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.logosubtext {
+  margin-left: 19vw;
+}
+
+
+.logosubtext2 {
+  margin-left: 4.5vw;
+  font-size: 1.75vw;
+}
+
+
+.logosubtext3 {
+  margin-left: 18.5vw;
+  font-size: 2vw;
+}
+
+
+.logosubtext4 {
+  margin-left: 2vw;
+  font-size: 1.75vw;
+}
+
+
+/*~~~~~~~~~~~~~~~ Logo Background ~~~~~~~~~~~~~~~*/
+
+
+.logowrapper {
+  position: relative;
+  top: -88vw;
+  width: 100%;
+  height: 11.5vw;
+  left: 0;
+
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Stream Gallery  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~ Stream Slideshow ~~~~~~~~~~~~~~~*/
+
+
+.streamtext, .streamtext2, .streamtext3 {
+  color: #3F0032;
+  font-size: 2.5vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.streamtext {
+  margin-left: 14vw;
+}
+
+
+.streamtext2 {
+  margin-left: 17.5vw;
+
+}
+
+
+.streamtext3 {
+  margin-left: 20.5vw;
+
+}
+
+
+.streamsubtext, .streamsubtext2, .streamsubtext3, .streamsubtext4, .streamsubtext5 {
+  display: block;
+  color: #3F0032;
+  font-size: 2vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Game Gallery  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.gamebody {
+  position: relative;
+  z-index: 10;
+  top: 21vw;
+}
+
+
+/*~~~~~~~~~~~~~~~ Game Slideshow ~~~~~~~~~~~~~~~*/
+
+
+.gametext, .gametext2 {
+  display: block;
+  color: #3F0032;
+  font-size: 2.5vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.gamesubtext, .gamesubtext2 {
+  display: block;
+  color: #3F0032;
+  font-size: 2vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/*~~~~~~~~~~~~~~~ Game Background ~~~~~~~~~~~~~~~*/
+
+
+.gamewrapper {
+  position: relative;
+  top: -88vw;
+  width: 100%;
+  height: 8.5vw;
+  left: 0;
+
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Anim Gallery  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.animbody {
+  position: relative;
+  z-index: 10;
+  top: 21vw;
+}
+
+
+/*~~~~~~~~~~~~~~~ Anim Background ~~~~~~~~~~~~~~~*/
+
+
+.animwrapper {
+  position: relative;
+  top: -88vw;
+  width: 100%;
+  height: 10.75vw;
+  left: 0;
+
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   Tablet Format  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~ Width set to 1100px for visual preference ~~*/
+@media (min-width: 1100px) {
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Index Tablet  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.homewrapper {
+  background-image: url(images/Base.png);
+  background-repeat: no-repeat;
+  background-size: 58vw;
+  height: auto;
+  margin: auto;
+  margin-top: 1vw;
+  position: relative;
+}
+
+
+.homecontainer {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-top: 3vw;
+  margin-bottom: .75vw;
+  width: 100vw;
+  height: 38vw;
+}
+        
+
+.homecontainer img {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  max-width: 50%;
+}
+
+
+.htitle {
+  transform: translate(16.25vw, 12.25vw);
+  text-align: center;
+  margin-right: 11.5%;
+  margin-top: .5vw;
+  font-size: 1.75vw;
+  font-weight: bold;
+}
+
+
+.hheader {
+  padding-top: .5em;
+  transform: translate(16.1vw, 12.5vw);
+  text-align: center;
+  margin-right: 11.5%;
+  font-size: 1.25vw;
+}
+
+
+/*~~~~~~~~~~~~~~~ Images Tablet ~~~~~~~~~~~~~~~*/
+
+
+.imagecenter {
+  margin-top: 2vw;
+  margin-left: 20vw;
+  overflow: hidden;
+}
+
+
+/*~~~~~~~~~~~~~~~ Buttons Tablet ~~~~~~~~~~~~~~~*/
+
+
+.btn {
+  display:block;
+  margin-left: 40%;
+  transform: translate(-2vw, -300%);
+  transition: transform .4s;
+}
+
+
+.btn:hover {
+  transform: translate(-1vw, -14.75vw);
+}
+
+/*~~~~~~~~~~~~~~~ Main Content Tablet ~~~~~~~~~~~~~~~*/
+
+
+.main {
+  margin-top: -14vw;
+  margin-left: -2.5vw;
+}
+
+
+.icontext {
+  text-align: center;
+}
+
+
+/*~~~~~~~~~~~~~~~ Footer Tablet ~~~~~~~~~~~~~~~*/
+         
+
+footer { 
+  padding-bottom: 4vw;
+  font-size: 75%;
+  padding-top: 0vw;
+  margin-top: 0vw;
+  
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ToS Tablet  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.toswrapper {
+  background-image: url(images/Base.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 65% 100%;
+  height: 48vw;
+  margin-top: 5vw;
+  margin-top: 1vw;
+  position: relative;
+  overflow: auto;
+}
+
+
+/*~~~~~~~~~~~~~~~ ToS Buttons Tablet ~~~~~~~~~~~~~~~*/
+
+
+.tosbtnall {
+  padding-top: 9vw;
+  margin-left: 1vw;
+}
+
+
+.tosbtn {
+  display:inline-block;
+  margin-left: .5vw;
+  transition: transform .4s;
+}
+
+
+.tosbtn:hover {
+  transform: translate(.5vw, -.5vw);
+}
+
+
+/*~~~~~~~~~~~~~~~ ToS Main Content Tablet ~~~~~~~~~~~~~~~*/
+
+
+.tosmain {
+  margin-top: 0vw;
+}
+
+
+.toshead {
+  font-size: 1.25vw;
+  margin-left: 1vw;
+  margin-bottom: .5vw;
+  font-weight: bold;
+}
+
+
+.toslist {
+  margin-bottom: 1vw;
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+
+.toscaption {
+  font-size: .85vw;
+  font-weight: bold;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  About Tablet  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.aboutwrapper {
+  background-image: url(images/Base.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 70% 100%;
+  height: 49vw;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 0vw;
+  position: relative;
+  overflow: auto;
+}
+
+
+.aboutcontainer {
+  margin-top: 9.5vw;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/*~~~~~~~~~~~~~~~ About Buttons Tablet ~~~~~~~~~~~~~~~*/
+
+
+.aboutbtnall {
+  padding: 0%;
+}
+
+
+/*~~~~~~~~~~~~~~~ About Main Tablet ~~~~~~~~~~~~~~~*/
+
+
+.aboutmain {
+  margin-top: .5vw;
+  max-height: 30vw;
+  overflow: auto;
+}
+
+
+.abspacer {
+  margin-top: .5vw;
+}
+
+
+.abspacer1 {
+  margin-left: 21vw;
+  margin-bottom: 1vw;
+}
+
+
+.abspacer2 {
+  margin-left: 23vw;
+  margin-bottom: 1vw;
+}
+
+
+.abspacer3 {
+  margin-left: 23vw;
+  margin-bottom: 1vw;
+}
+
+
+.abspacer4 {
+  margin-left: 21.5vw;
+  margin-bottom: 1vw;
+}
+
+
+.abspacer5 {
+  margin-left: 22vw;
+  margin-bottom: 0vw;
+}
+
+
+.abspacer6 {
+  margin-left: 22.75vw;
+  margin-bottom: 1vw;
+}
+
+
+.abtitle {
+  display:inline-block;
+  color: #3F0032;
+  font-size: 1.5vw;
+  margin-left: 1vw;
+  margin-bottom: .5vw;
+  margin-top: 0%;
+  line-height: 1vw;
+}
+
+.abhead {
+  display:inline-block;
+  color: #3F0032;
+  font-size: 1.25vw;
+  margin-top: .25vw;
+  line-height: 1vw;
+}
+
+.abtext {
+  display: block;
+  color: #3F0032;
+  text-shadow:  5px 5px 5px #fffdfd31;
+  font-size: 1vw;
+  font-weight: bold;
+  margin-left: 1.25vw;
+}
+
+
+p {
+  padding: 0%;
+  margin: 0%;
+  margin-top: 1vw;
+  margin-bottom: 1.1vw;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Comms Tablet  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.commwrapper {
+  background-image: url(images/Base.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 70% 100%;
+  height: 49vw;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 0vw;
+  position: relative;
+}
+
+
+.commcontainer {
+  margin-top: 1vw;
+  margin-left: 22vw;
+  margin-right: 22vw;
+}
+
+
+/*~~~~~~~~~~~~~~~ Comms Buttons Tablet ~~~~~~~~~~~~~~~*/
+
+
+.commbtnall {
+  margin-top: 0%;
+  padding-top: 0%;
+margin-left: 16vw;
+}
+
+
+.commbtn {
+  display: block;
+  margin-bottom: .5vw;
+  transition: transform .4s;
+}
+
+
+.commbtn:hover {
+  transform: translate(.5vw, -.25vw);
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Char Gallery Tablet  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~ Char Slideshow Tablet ~~~~~~~~~~~~~~~*/
+
+
+.slideshow-container {
+  max-width: 40vw;
+}
+
+
+.prev {
+  margin-left: -5.5vw;
+}
+
+/* Position the "next button" to the right */
+.next {
+  margin-left: 40.5vw;
+  border-radius: 0px 10px 10px 0px;
+}
+
+
+/*~~~~~~~~~~~~~~~ Char Main Tablet ~~~~~~~~~~~~~~~*/
+
+
+.charbody {
+  top: 18vw;
+}
+
+
+.charwrapper {
+  height: 13vw;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Logo Gallery Tablet  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~ Logo Main Tablet ~~~~~~~~~~~~~~~*/
+
+
+.logobody {
+  top: 18vw;
+}
+
+
+.logowrapper {
+  height: 10vw;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Game Gallery Tablet  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~ Game Slideshow Tablet ~~~~~~~~~~~~~~~*/
+
+
+.gamebody {
+  top: 14vw;
+}
+
+
+.gamewrapper {
+  height: 7.5vw;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Anim Gallery Tablet  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.animbody {
+  top: 14vw;
+}
+
+
+/*~~~~~~~~~~~~~~~ Anim Background Tablet ~~~~~~~~~~~~~~~*/
+
+
+.animwrapper {
+  height: 9vw;
+
+}
+
+
+
+
+
+
+  }

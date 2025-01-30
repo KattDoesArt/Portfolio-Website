@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+* {
+  box-sizing: border-box;
+}</style>
+
+
+<!--~~~~~ Head ~~~~~-->
+
+
+<head>
+  <link rel="icon" href="images/emote1.png" type="image/png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="final.css">
+  <title>Katt Does Art's Portfolio :: Logos</title>
+</head>
+    
+    
+<!--~~~~~ Nav ~~~~~-->
+
+
+<body>
+  <div id="wrapper">
+  <div class="charscroll">
+  <div class="logobody">
+    <div class="charbtnall">
+      <div class="charbtn">
+        <a href='index.html'><img src="images/HomeButton.png" alt="about" style="width:27vw;"></a>
+      </div>
+      <div class="charbtn">
+        <a href='comms.html'><img src="images/PriceButton.png" alt="comms" style="width:27vw;"></a>
+      </div>
+      <div class="charbtn">
+        <a href='tos.html'><img src="images/ToSButton.png" alt="ToS" style="width:27vw;"></a>
+      </div></div>
+
+
+<!--~~~~~ Body ~~~~~-->
+
+  <div class="charcontainer">
+
+
+    <span class="logotext">Logo $20* </span><br>
+    <span class="logosubtext">Commercial use $60*</span><br>
+    <span class="logosubtext2">A detailed logo for any company/brand you may be creating.</span>
+      <div class="slideshow-container">
+        <div class="mySlides1">
+          <img src="images/epsilonlogo.png" id="border" style="width:100%">
+        </div>
+        <div class="mySlides1">
+          <img src="images/bakinglogo.png" id="border" style="width:100%">
+        </div>
+        <div class="mySlides1">
+          <img src="images/havencorelogo.png" id="border" style="width:100%">
+        </div>
+        <div class="mySlides1">
+          <img src="images/phlogo.png" id="border" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+      </div>
+    
+
+      <span class="logotext2">Animated Logo $40*</span><br>
+      <span class="logosubtext3">Commercial use $80*</span><br>
+      <span class="logosubtext4">An animated logo for any company/brand you may be creating!</span>
+        <div class="slideshow-container">
+          <div class="mySlides2">
+            <img src="images/animatedlogo.gif" id="border" style="width:100%">
+          </div>
+          <div class="mySlides2">
+            <img src="images/hcanimated.gif" id="border" style="width:100%">
+          </div>
+          <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+        </div>
+
+
+      <div class="gallerytextblock"><span class="gallerynotif">Please Note!</span>
+      <span class="gallerynotif">These are base prices. Price is subject to change based on image complexity, background details, size, etc.</span></div>
+    
+
+<!--~~~~~ Script ~~~~~-->
+
+
+        <script>
+        var slideIndex = [1,1,1];
+        var slideId = ["mySlides1", "mySlides2", "mySlides3"]
+        showSlides(1, 0);
+        showSlides(1, 1);
+        showSlides(1, 2);
+    
+        function plusSlides(n, no) {
+          showSlides(slideIndex[no] += n, no);
+        }
+    
+        function showSlides(n, no) {
+          var i;
+          var x = document.getElementsByClassName(slideId[no]);
+          if (n > x.length) {slideIndex[no] = 1}    
+          if (n < 2) {slideIndex[no] = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          x[slideIndex[no]-1].style.display = "block";  
+        }
+        </script>
+
+        
+      </div>
+    </div>
+
+
+    <!--~~~~~ Background ~~~~~-->
+
+
+        <div class="logowrapper">
+          <img src="images/Base Gallery.png"  alt="background" width="100%" height="1600%">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
