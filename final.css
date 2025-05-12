@@ -32,7 +32,9 @@ html,body
 
 
 .mobilewrapper{
-  max-width: fit-content;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
 }
 
 
@@ -40,18 +42,20 @@ html,body
   background-image: url(images/Base\ Mobile.png);
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size: 55% 100%;
-  height: 70vw;
-  margin-top: 5vw;
+  background-size: 100% 100%;
+  height: 100%;
+  max-height: 100%;
+  margin-top: 1vw;
 }
 
 
 .homecontainer {
   display: inline-block;
   vertical-align: bottom;
-  margin-top: 8vw;
-  width: 100vw;
-  height: 38vw;
+  margin-top: 100px;
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
 }
 
 
@@ -71,7 +75,7 @@ html,body
   transform: translate(6vw, 0vw);
   margin-right: 11.5%;
   margin-top: .5vw;
-  font-size: 2vw;
+  font-size: 3.5vw;
 }
 
 
@@ -79,10 +83,10 @@ html,body
   color: #3F0032;
   text-shadow:  0px 5px 5px #fffdfd31;
   text-align: center;
-  padding-top: 1em;
+  padding-top: 1vw;
   transform: translate(6vw, .5vw);
   margin-right: 11.5%;
-  font-size: 1.5vw;
+  font-size: 2.5vw;
 }
 
 
@@ -91,23 +95,51 @@ html,body
 
 .imagecenter {
   margin-top: 2vw;
-  margin-left: 35vw;
+  padding-left: 35vw;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+
+.mainimg{
+  margin-bottom: 1vw;
+  width: 100%;
+  height: 100%;
+}
+
+.watermark {
+  display: none;
+}
+
+.toswatermark {
+  transform: translate(5vw, -13vw);
+}
+
+.commwatermark {
+  width: 20%;
+  height: 25%;
+  transform: translate(2vw, -5vw);
   overflow: hidden;
 }
 
-
-#mainimg{
-  margin-left: 1vw;
-  margin-bottom: 1vw;
+.aboutwatermark {
+  transform: translate(2vw, -13vw);
 }
-
 
 /*~~~~~~~~~~~~~~~ Buttons ~~~~~~~~~~~~~~~*/
 
+.btnorg {
+  justify-content: center;
+  padding-left: 35vw;
+  margin-top: 3.5vw;
+  max-height: 100%;
+}
 
 .btn {
-  width: 75vw;
-  margin-left: 4vw;
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+  overflow: hidden;
   border: none;
   transition: transform .4s;
 }
@@ -125,17 +157,13 @@ a {
 /*~~~~~~~~~~~~~~~ Main Content ~~~~~~~~~~~~~~~*/
 
 
-#mainimg{
-  margin-left: 15vw;
-}
-
-
 .main {
   vertical-align: bottom;
   overflow: hidden;
-  margin-top: 1vw;
-  margin-left: -6vw;
+  margin-top: -26vw;
+  margin-left: 31.5vw;
   overflow-y: hidden;
+  max-height: 100%;
 }
 
 
@@ -463,7 +491,7 @@ margin-left: 16vw;
 }
 
 .gallerytext, .gallerytext2 {
-  margin-left: 24vw;
+  margin-left: 22vw;
 }
 
 
@@ -480,10 +508,13 @@ margin-left: 16vw;
 }
 
 
-.gallerysubtext, .gallerysubtext2 {
-  margin-left: 10vw;
+.gallerysubtext {
+  margin-left: 8vw;
 }
 
+.gallerysubtext2 {
+  margin-left: 9vw;
+}
 
 .gallerysubtext3 {
   margin-left: 12vw;
@@ -561,6 +592,29 @@ margin-left: 16vw;
 
 .gallerytextblock {
   margin-top: 8vw;
+}
+
+
+.chargallerynotif, .streamgallerynotif, .streamgallerynotif2 {
+  display: block;
+  color: #c0170b;
+  text-align: center;
+  font-size: 1.75vw;
+  font-weight: bold;
+}
+
+
+.chargallerytextblock {
+  margin-top: 0vw;
+}
+
+.streamgallerytextblock {
+  margin-top: 0vw;
+  transform: translate(0, -1.25vw);
+}
+
+.streamgallerynotif2 {
+  transform: translate(0, .75vw);
 }
 
 
@@ -669,7 +723,7 @@ img {vertical-align: middle;}
 
 
 .logosubtext {
-  margin-left: 19vw;
+  margin-left: 16vw;
 }
 
 
@@ -680,7 +734,7 @@ img {vertical-align: middle;}
 
 
 .logosubtext3 {
-  margin-left: 18.5vw;
+  margin-left: 16.25vw;
   font-size: 2vw;
 }
 
@@ -710,7 +764,7 @@ img {vertical-align: middle;}
 /*~~~~~~~~~~~~~~~ Stream Slideshow ~~~~~~~~~~~~~~~*/
 
 
-.streamtext, .streamtext2, .streamtext3 {
+.streamtext, .streamtext2, .streamtext3, .streamtext4 {
   color: #3F0032;
   font-size: 2.5vw;
   text-align: center;
@@ -734,13 +788,21 @@ img {vertical-align: middle;}
 
 }
 
+.streamtext4 {
+  margin-left: 12vw;
+}
 
-.streamsubtext, .streamsubtext2, .streamsubtext3, .streamsubtext4, .streamsubtext5 {
+
+.streamsubtext, .streamsubtext2, .streamsubtext3, .streamsubtext4, .streamsubtext5, .streamsubtext6 {
   display: block;
   color: #3F0032;
   font-size: 2vw;
   text-align: center;
   font-weight: bold;
+}
+
+.streamsubtext6  {
+  margin-bottom: 4vw;
 }
 
 
@@ -760,7 +822,7 @@ img {vertical-align: middle;}
 /*~~~~~~~~~~~~~~~ Game Slideshow ~~~~~~~~~~~~~~~*/
 
 
-.gametext, .gametext2 {
+.gametext, .gametext2, .gametext3 {
   display: block;
   color: #3F0032;
   font-size: 2.5vw;
@@ -769,10 +831,24 @@ img {vertical-align: middle;}
 }
 
 
-.gamesubtext, .gamesubtext2 {
+.gamesubtext, .gamesubtext2, .gamesubtext3, .gamesubtext4, .gamesubtext5 {
   display: block;
   color: #3F0032;
   font-size: 2vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.gamesubtext4 {
+  margin-bottom: 4vw;
+}
+
+
+.gamesubtext5 {
+  display: block;
+  color: #3F0032;
+  font-size: 1.25vw;
   text-align: center;
   font-weight: bold;
 }
@@ -854,6 +930,13 @@ img {vertical-align: middle;}
   max-width: 50%;
 }
 
+.watermark {
+  display: block;
+  width: 20%;
+  height: 25%;
+  transform: translate(7vw, -8vw);
+  overflow: hidden;
+}
 
 .htitle {
   transform: translate(16.25vw, 12.25vw);
@@ -873,38 +956,43 @@ img {vertical-align: middle;}
   font-size: 1.25vw;
 }
 
+.mainimg{
+  margin-bottom: .5vw;
+  width: 68%;
+  height: 68%;
+  margin-left: 2vw;
+}
+
 
 /*~~~~~~~~~~~~~~~ Images Tablet ~~~~~~~~~~~~~~~*/
 
 
 .imagecenter {
   margin-top: 2vw;
-  margin-left: 20vw;
+  padding-left: 20%;
   overflow: hidden;
 }
 
 
 /*~~~~~~~~~~~~~~~ Buttons Tablet ~~~~~~~~~~~~~~~*/
 
-
-.btn {
-  display:block;
-  margin-left: 40%;
-  transform: translate(-2vw, -300%);
+.btnorg {
+  transform: translate(12vw, -105%);
   transition: transform .4s;
 }
 
-
-.btn:hover {
-  transform: translate(-1vw, -14.75vw);
+.btn {
+  display:block;
+  padding-right: 15%;
 }
+
 
 /*~~~~~~~~~~~~~~~ Main Content Tablet ~~~~~~~~~~~~~~~*/
 
 
 .main {
-  margin-top: -14vw;
-  margin-left: -2.5vw;
+  margin-top: -22vw;
+  margin-left: 16.5vw;
 }
 
 
@@ -1214,7 +1302,7 @@ margin-left: 16vw;
 
 
 .gamebody {
-  top: 14vw;
+  top: 18vw;
 }
 
 
