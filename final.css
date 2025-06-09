@@ -1,0 +1,1798 @@
+* { box-sizing: border-box; }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Index  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~  Body  ~~~~~~~~~~~~~~~*/
+
+img, video { max-width: 100%; height: auto; }
+
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+#wrapper { 
+  background-image: url(images/Background.png);
+  background-size: cover;
+  display: flex;
+  position: relative;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+  overflow-y: hidden;
+}
+
+/*~~~~~~~~~~~~~~~  Header  ~~~~~~~~~~~~~~~*/
+
+
+.mobilewrapper, .charmobilewrapper, .logomobilewrapper, .streammobilewrapper, .gamemobilewrapper, .animmobilewrapper{
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+
+.homewrapper {
+  background-image: url(images/Base\ Mobile.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  height: 150vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+}
+
+
+.homecontainer {
+  display: inline-block;
+  vertical-align: bottom;
+  height: 100%;
+  width: 100%;
+}
+
+
+.homecontainer img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  max-width: 50%;
+}
+
+
+.htitle {
+  color: #3F0032;
+  text-shadow:  0px 5px 5px #fffdfd31;
+  text-align: center;
+  transform: translate(6vw, 0vw);
+  margin-right: 11.5%;
+  margin-top: 17vw;
+  font-size: 6.5vw;
+}
+
+
+.hheader {
+  color: #3F0032;
+  text-shadow:  0px 5px 5px #fffdfd31;
+  text-align: center;
+  transform: translate(7.5vw, .5vw);
+  margin-right: 15%;
+  font-size: 5.5vw;
+}
+
+
+/*~~~~~~~~~~~~~~~ Images ~~~~~~~~~~~~~~~*/
+
+
+.imagecenter {
+  margin-bottom: 2vw;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+
+.mainimg{
+  margin-bottom: 1vw;
+  width: 110%;
+  height: 110%;
+  transform: translate(22vw, 0);
+}
+
+.watermark, .toswatermark {
+  display: none;
+}
+
+.commwatermark {
+  width: 20%;
+  height: 25%;
+  transform: translate(2vw, -5vw);
+  overflow: hidden;
+}
+
+.aboutwatermark {
+  display: none;
+}
+
+/*~~~~~~~~~~~~~~~ Buttons ~~~~~~~~~~~~~~~*/
+
+.btnorg {
+  justify-content: center;
+  max-height: 100%;
+  transform: translate(25vw, 10vw);
+  position: relative;
+  z-index: 2;
+}
+
+.btn {
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  border: none;
+  transition: transform .4s;
+}
+
+
+.btn:hover {
+  transform: translate(1vw, -.25vw);
+}
+
+
+a {
+  text-decoration: none;
+}
+
+/*~~~~~~~~~~~~~~~ Main Content ~~~~~~~~~~~~~~~*/
+
+
+.inline-block-child {
+  display: inline-block;
+  width: 18%;
+  height: 18%;
+  font-size: 0;
+}
+
+.main {
+  overflow: hidden;
+  transform: translate(28vw, -34vw);
+  overflow-y: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.igmove {
+  transform: translate(-8vw, 0vw);
+}
+
+.icontext {
+  display: inline-block;
+  font-size: 3.5vw;
+  transform: translate(-16vw, 1vw);
+  text-decoration: none;
+}
+
+
+.icontext:link {
+  color: #3f1e8d;
+}
+
+
+.icontext:visited {
+  color: #3F0032;
+}
+
+
+.icontext:hover {
+  color: #5c1366;
+}
+
+
+/*~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~*/
+
+
+footer { 
+  color: #3F0032;
+  margin-top: 15vw;
+  padding-top: 7vw;
+  padding-bottom: 7vw;
+  font-family:Georgia;
+  font-size: 1vw;
+  font-style: italic; 
+  text-align: center;
+  
+}
+
+
+/*~~~~~~~~~~~~~~~ Misc Index Format ~~~~~~~~~~~~~~~*/
+
+h1{
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ToS  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.toswrapper {
+  background-image: url(images/Base\ Mobile.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  height: 150vw;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+}
+
+
+.toscontainer {
+  justify-content: center;
+  transform: translate(0%, 13%);
+  width: 100%;
+  height: 75%;
+}
+
+
+/*~~~~~~~~~~~~~~~ ToS Buttons ~~~~~~~~~~~~~~~*/
+
+
+.tosbtnall {
+  width: 75%;
+  max-width: 150%;
+  transform: translate(30%, 30%);
+}
+
+.tosbtn {
+  transition: transform .4s;
+  width: 75%;
+  height: auto;
+}
+
+
+.tosbtn:hover {
+  transform: translate(.5vw, -.25vw);
+}
+
+/*~~~~~~~~~~~~~~~ ToS Main Content ~~~~~~~~~~~~~~~*/
+
+
+.tosmain {
+  justify-content: center;
+  width: 75%;
+  height: 65%;
+  transform: translate(18%, 10%);
+  overflow-y: scroll;
+}
+
+
+.toshead {
+  display:inline-block;
+  color: #3F0032;
+  font-size: 4.75vw;
+  text-align: center;
+  font-weight: bold;
+  margin-top: .5vw;
+}
+
+
+.toslist {
+  display: block;
+  color: #3F0032;
+  text-shadow:  5px 5px 5px #fffdfd31;
+  font-size: 4.25vw;
+  margin-top: -.5vw;
+  word-wrap: break-word;
+  width: 55vw;
+  font-weight: bold;
+  transform: translate(15%, 2%);
+}
+
+
+.toscaption {
+  color: #3F0032;
+  font-size: 3vw;
+  margin-top: -1.5vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  About  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.aboutwrapper {
+  background-image: url(images/Base\ Mobile.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  height: 150vw;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+}
+
+
+.aboutcontainer {
+  justify-content: center;
+  transform: translate(0%, 13%);
+  width: 100%;
+  height: 75%;
+}
+
+
+/*~~~~~~~~~~~~~~~ About Buttons ~~~~~~~~~~~~~~~*/
+
+
+.aboutbtnall {
+  width: 75%;
+  max-width: 150%;
+  transform: translate(30%, 30%);
+}
+
+.aboutbtn {
+  transition: transform .4s;
+  width: 75%;
+  height: auto;
+}
+
+
+.aboutbtn:hover {
+  transform: translate(.5vw, -.25vw);
+}
+
+/*~~~~~~~~~~~~~~~ About Main Content ~~~~~~~~~~~~~~~*/
+
+
+.aboutmain {
+  justify-content: center;
+  width: 75%;
+  height: 65%;
+  transform: translate(18%, 10%);
+  overflow-y: scroll;
+}
+
+span.abtitle {
+  display:inline-block;
+  color: #3F0032;
+  margin-top: 7%;
+  font-size: 4.75vw;
+  font-weight: bold;
+  transform: translate(120%, 0%);
+}
+
+span.abtext {
+  display:inline-block;
+  color: #3F0032;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.75vw;
+  margin-top: 4%;
+}
+
+span.abcaption {
+  display:inline-block;
+  color: #3F0032;
+  font-weight: bold;
+  font-size: 2.75vw;
+  transform: translate(50%, -200%);
+  margin-top: 2%;
+}
+
+
+span.abtitle2 {
+  display:inline-block;
+  color: #3F0032;
+  font-size: 4.75vw;
+  font-weight: bold;
+  transform: translate(-50%, 15%);
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+span.abtext2, span.abtext3, span.abtext4, span.abtext5, span.abtext6, span.abtext7, span.abtext8 {
+  display:inline-block;
+  color: #3F0032;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.75vw;
+  margin-top: 2%;
+}
+
+
+span.abtext2 {
+  margin-left: 18%;
+}
+
+
+span.abtext3 {
+  margin-left: 20%;
+}
+
+
+span.abtext4 {
+  margin-left: 25%;
+}
+
+
+span.abtext5 {
+  margin-left: 17%;
+}
+
+
+span.abtext6 {
+  margin-left: 30%;
+}
+
+span.abtext7 {
+  margin-left: 10%;
+}
+
+
+span.abtext8 {
+  margin-left: 32%;
+}
+
+
+span.abtitle3 {
+  display:inline-block;
+  color: #3F0032;
+  font-size: 4.75vw;
+  font-weight: bold;
+  transform: translate(80%, 0%);
+  margin-top: 5%;
+}
+
+
+span.absubhead, span.absubhead2, span.absubhead3 {
+  display:inline-block;
+  color: #3F0032;
+  font-size: 4.5vw;
+  font-weight: bold;
+  transform: translate(50%, 0%);
+  margin-top: 5%;
+}
+
+
+span.absubhead2 {
+  transform: translate(88%, 0%);
+  margin-top: 10%;
+}
+
+
+span.absubhead3 {
+  transform: translate(110%, 0%);
+  margin-top: 10%;
+}
+
+
+.abouthead {
+  display:inline-block;
+  color: #3F0032;
+  font-size: 4.75vw;
+  text-align: center;
+  font-weight: bold;
+  margin-top: .5vw;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Comm Page  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.commwrapper {
+  background-image: url(images/Base\ Mobile.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  height: 150vw;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+}
+
+
+.commcontainer {
+  justify-content: center;
+  transform: translate(0%, 13%);
+  width: 100%;
+  height: 75%;
+}
+
+
+.commhead {
+  color: #3F0032;
+  font-weight: bold;
+  font-size: 3vw;
+  text-align: center;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+
+.commwatermark {
+  display: none;
+}
+
+
+/*~~~~~~~~~~~~~~~ Comm Buttons ~~~~~~~~~~~~~~~*/
+
+
+.commbtnall {
+  width: 90%;
+  transform: translate(18%, 5%);
+}
+
+
+.commbtn, .commbtnm, .commbtnf {
+  transition: transform .4s;
+  width: 75%;
+  height: auto;
+}
+
+
+.commbtnm {
+  margin-bottom: 2%;
+}
+
+.commbtnf {
+  margin-top: 10%;
+}
+
+.commbtn:hover, .commbtnm:hover, .commbtnf:hover {
+  transform: translate(.5vw, -.25vw);
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  OC Gallery  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.charwrapper {
+  background-image: url(images/Base\ Mobile.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  height: 150vw;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+}
+
+
+.charcontainer {
+  justify-content: center;
+  transform: translate(0%, 13%);
+  width: 100%;
+  height: 75%;
+}
+
+
+span.gallerytext, span.gallerytext2, span.gallerytext3 {
+  display: inline-block;
+  text-align: center;
+  color: #3F0032;
+  font-size: 5vw;
+  font-weight: bold;
+}
+
+
+span.gallerytext {
+  margin-left: 39%;
+}
+
+span.gallerytext2 {
+  margin-left: 38%;
+}
+
+span.gallerytext3 {
+  margin-left: 16%;
+}
+
+span.gallerysubtext, span.gallerysubtext2, span.gallerysubtext3 {
+  display: inline-block;
+  text-align: center;
+  color: #3F0032;
+  font-size: 3.75vw;
+  font-weight: bold;
+}
+
+
+.gallerysubtext2 {
+  margin-left: 5%;
+}
+
+.gallerysubtext3 {
+  margin-left: 10%;
+}
+
+
+.charbody {
+  overflow-y: scroll;
+  transform: translate(9.5%, 5%);
+  width: 85%;
+  height: 74%;
+}
+
+
+/*~~~~~~~~~~~~~~~ OC Buttons ~~~~~~~~~~~~~~~*/
+
+
+.charbtnall {
+  width: 75%;
+  max-width: 150%;
+  transform: translate(30%, 10%);
+}
+
+
+.charbtn {
+  transition: transform .4s;
+  width: 75%;
+  height: auto;
+}
+
+
+.charbtn:hover {
+  transform: translate(.5vw, -.25vw);
+}
+
+
+/*~~~~~~~~~~~~~~~ OC Slideshow ~~~~~~~~~~~~~~~*/
+
+
+.chartitle {
+  color: #3F0032;
+  font-size: 2.5vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.charsubtitle {
+  font-size: 1.5vw;
+}
+
+
+.gallerynotif {
+  display: block;
+  color: #c0170b;
+  text-align: center;
+  font-size: 1.75vw;
+  font-weight: bold;
+  margin-top: 1vw;
+}
+
+
+.gallerytextblock {
+  margin-top: 8vw;
+}
+
+
+.chargallerynotif, .streamgallerynotif, .streamgallerynotif2 {
+  display: block;
+  color: #c0170b;
+  text-align: center;
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+
+.chargallerytextblock {
+  margin-top: 0vw;
+}
+
+.streamgallerytextblock {
+  margin-top: 0vw;
+  transform: translate(0, -1.25vw);
+}
+
+.streamgallerynotif2 {
+  transform: translate(0, .75vw);
+}
+
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2, .mySlides3 
+{display: none}
+img {vertical-align: middle;}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 50vw;
+  position: relative;
+  margin: auto;
+  margin-bottom: 3vw;
+  margin-top: 2vw;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 2vw;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5vw;
+  transition: 0.6s ease;
+  border-radius: 10px 0 0 10px;
+  user-select: none;
+}
+
+
+.prev {
+  margin-left: -5.5vw;
+}
+
+
+/* Position the "next button" to the right */
+.next {
+  margin-left: 51vw;
+  border-radius: 0px 10px 10px 0px;
+}
+
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Logo Gallery  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.logowrapper, .streamwrapper, .gamewrapper, .animwrapper {
+  background-image: url(images/Base\ Mobile.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+  height: 150vw;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+}
+
+
+.logocontainer, .streamcontainer, .gamecontainer, .animcontainer {
+  justify-content: center;
+  transform: translate(0%, 13%);
+  width: 100%;
+  height: 75%;
+}
+
+
+.logobody, .streambody, .gamebody, .animbody {
+  overflow-y: scroll;
+  transform: translate(9.5%, 5%);
+  width: 85%;
+  height: 74%;
+}
+
+
+.logobtnall, .streambtnall, .gamebtnall, .animbtnall {
+  width: 75%;
+  max-width: 150%;
+  transform: translate(30%, 10%);
+}
+
+
+.logobtn, .streambtn, .gamebtn, .animbtn {
+  transition: transform .4s;
+  width: 75%;
+  height: auto;
+}
+
+
+.logobtn:hover, .streambtn:hover, .gamebtn:hover, .animbtn:hover {
+  transform: translate(.5vw, -.25vw);
+}
+
+
+/*~~~~~~~~~~~~~~~ Logo Slideshow ~~~~~~~~~~~~~~~*/
+
+
+.logotext, .logotext2 {
+  display: inline-block;
+  color: #3F0032;
+  font-size: 5vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.logotext {
+  margin-left: 39%;
+}
+
+
+.logotext2 {
+  margin-left: 22%;
+
+}
+
+
+span.logosubtext, span.logosubtext2, span.logosubtext3, span.logosubtext4 {
+  display: inline-block;
+  color: #3F0032;
+  font-size: 3.75vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+span.logonotif {
+  display: block;
+  color: #c0170b;
+  text-align: center;
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Stream Gallery  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+span.streamtext, span.streamtext2, span.streamtext3, span.streamtext4, span.streamtext5, span.streamtext6 {
+  display: inline-block;
+  color: #3F0032;
+  font-size: 5vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+span.streamtext {
+  margin-left: 14%;
+}
+
+
+span.streamtext2 {
+  margin-left: 12%;
+
+}
+
+
+span.streamtext4 {
+  margin-left: 28%;
+}
+
+
+span.streamtext5 {
+  margin-left: 36%;
+}
+
+
+span.streamtext6 {
+  margin-left: 20%;
+}
+
+
+span.streamsubtext, span.streamsubtext2, span.streamsubtext3, span.streamsubtext4, span.streamsubtext5, span.streamsubtext6, span.streamsubtext7, span.streamsubtext8, span.streamsubtext9, .streamsubtext10 {
+  display: inline-block;
+  color: #3F0032;
+  font-size: 3.75vw;
+  margin-top: 2%;
+  text-align: center;
+  font-weight: bold;
+}
+
+span.streamsubtext3, span.streamsubtext5  {
+  margin-left: 28%;
+  margin-bottom: 6vw;
+}
+
+
+span.streamsubtext7  {
+  font-size: 2.5vw;
+}
+
+
+span.streamsubtext9  {
+  font-size: 2.5vw;
+  margin-left: 37%;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Game Gallery  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+span.gametext, span.gametext2, span.gametext3, span.gametext4 {
+  display: block;
+  color: #3F0032;
+  font-size: 5vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+span.gamesubtext, span.gamesubtext2, span.gamesubtext3, span.gamesubtext4, span.gamesubtext5, span.gamesubtext6 {
+  display: block;
+  color: #3F0032;
+  font-size: 3.75vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+span.gamesubtext2 {
+  margin-bottom: 8%;
+}
+
+
+span.gamesubtext6 {
+  font-size: 3vw;
+}
+
+
+span.gamenotif, span.animnotif {
+  display: block;
+  color: #c0170b;
+  text-align: center;
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Anim Gallery  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   Tablet Format  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~ Width set to 1100px for visual preference ~~*/
+@media (min-width: 1100px) {
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Index Tablet  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.homewrapper {
+  background-image: url(images/Base.png);
+  background-repeat: no-repeat;
+  background-size: 75% 100%;
+  height: 48vw;
+  width: 100%;
+  margin: auto;
+  overflow-y: hidden;
+}
+
+
+.homecontainer {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 75%;
+  height: 100%;
+}
+        
+
+.homecontainer img {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  max-width: 50%;
+}
+
+.watermark {
+  display: block;
+  width: 35%;
+  height: 25%;
+  transform: translate(1vw, -29vw);
+}
+
+.htitle {
+  transform: translate(29vw, 12.25vw);
+  text-align: center;
+  margin-right: 11.5%;
+  margin-top: .5vw;
+  font-size: 2.75vw;
+  font-weight: bold;
+}
+
+
+.hheader {
+  padding-top: .5em;
+  transform: translate(30vw, 12.5vw);
+  text-align: center;
+  margin-right: 11.5%;
+  font-size: 1.75vw;
+}
+
+.mainimg{
+  margin-bottom: .5vw;
+  width: 100%;
+  height: 100%;
+  margin-left: 2vw;
+  transform: translate(0vw, 2vw);
+}
+
+
+/*~~~~~~~~~~~~~~~ Images Tablet ~~~~~~~~~~~~~~~*/
+
+
+.imagecenter {
+  margin-top: 2vw;
+  padding-left: 20%;
+  overflow: hidden;
+}
+
+
+/*~~~~~~~~~~~~~~~ Buttons Tablet ~~~~~~~~~~~~~~~*/
+
+.btnorg {
+  transform: translate(48vw, -18vw);
+  transition: transform .4s;
+}
+
+.btn {
+  width: 75%;
+  height: 75%;
+}
+
+
+/*~~~~~~~~~~~~~~~ Main Content Tablet ~~~~~~~~~~~~~~~*/
+
+
+.main {
+  transform: translate(22vw, -21vw);
+}
+
+
+.inline-block-child {
+  width: 10%;
+  height: 10%;
+}
+
+.igmove, .icontext {
+  transform: translate(-3.5vw, 0.5vw);
+  font-size: 2vw;
+}
+
+.icontext {
+  transform: translate(-7vw, 1vw);
+}
+
+/*~~~~~~~~~~~~~~~ Footer Tablet ~~~~~~~~~~~~~~~*/
+         
+
+footer { 
+  padding-bottom: 4vw;
+  font-size: 75%;
+  padding-top: 0vw;
+  margin-top: 0vw;
+  
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ToS Tablet  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.toswrapper {
+  background-image: url(images/Base.png);
+  background-repeat: no-repeat;
+  background-size: 75% 100%;
+  height: 48vw;
+  width: 100%;
+  margin: auto;
+  overflow-y: hidden;
+}
+
+
+.toscontainer {
+  width: 70%;
+  height: 90%;
+  transform: translate(22%, 19%);
+}
+
+
+/*~~~~~~~~~~~~~~~ ToS Buttons Tablet ~~~~~~~~~~~~~~~*/
+
+.tosbtnall {
+  width: 100%;
+  max-width: 100%;
+  transform: translate(3.5%, -550%);
+}
+
+.tosbtn {
+  display: inline-block;
+  transition: transform .4s;
+  width: 31%;
+  max-width: 31%;
+  height: auto;
+}
+
+
+.tosbtn:hover {
+  transform: translate(.5vw, -.5vw);
+}
+
+
+.toswatermark {
+  display: block;
+  width: 35%;
+  height: 25%;
+  transform: translate(1vw, -68.5%);
+  
+}
+
+/*~~~~~~~~~~~~~~~ ToS Main Content Tablet ~~~~~~~~~~~~~~~*/
+
+
+.tosmain {
+  transform: translate(-4%, 25%);
+  overflow-x: hidden;
+  width: 100%;
+}
+
+
+.toshead {
+  font-size: 1.25vw;
+  margin-left: 1vw;
+  margin-bottom: .5vw;
+  font-weight: bold;
+}
+
+
+.toslist {
+  margin-bottom: 1vw;
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+
+.toscaption {
+  font-size: .85vw;
+  font-weight: bold;
+}
+
+
+span.toshead {
+  font-size: 3vw;
+}
+
+
+li.tosp {
+  font-size: 1.5vw;
+}
+
+
+p.toscaption {
+  font-size: 1.25vw;
+  margin-top: .5%;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  About Tablet  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.mobilewrapper {
+  overflow: hidden;
+}
+
+
+.aboutwrapper {
+  background-image: url(images/Base.png);
+  background-repeat: no-repeat;
+  background-size: 75% 100%;
+  height: 48vw;
+  width: 100%;
+  margin: auto;
+  overflow-y: hidden;
+}
+
+
+.aboutcontainer {
+  width: 70%;
+  height: 90%;
+  transform: translate(22%, 19%);
+}
+
+
+/*~~~~~~~~~~~~~~~ About Buttons Tablet ~~~~~~~~~~~~~~~*/
+
+
+.aboutbtnall {
+  width: 100%;
+  max-width: 100%;
+  transform: translate(3.5%, -550%);
+}
+
+
+.aboutbtn {
+  display: inline-block;
+  transition: transform .4s;
+  width: 31%;
+  max-width: 31%;
+  height: auto;
+}
+
+
+.aboutwatermark {
+  display: block;
+  width: 35%;
+  height: 25%;
+  transform: translate(1vw, -106%);
+}
+
+
+/*~~~~~~~~~~~~~~~ About Main Tablet ~~~~~~~~~~~~~~~*/
+
+
+.aboutmain {
+  transform: translate(5%, 25%);
+  overflow-x: hidden;
+  width: 90%;
+}
+
+
+span.abtitle {
+  font-size: 3vw;
+  margin-left: 12%;
+}
+
+span.abtext {
+  font-size: 2.5vw;
+}
+
+span.abcaption {
+  font-size: 1.5vw;
+  margin-left: 18%;
+}
+
+
+span.abtitle2 {
+  font-size: 3vw;
+}
+
+span.abtext2, span.abtext3, span.abtext4, span.abtext5 {
+  font-size: 2.5vw;
+}
+
+
+span.abtext2 {
+  margin-left: 25%;
+}
+
+
+span.abtext3 {
+  margin-left: 27%;
+}
+
+
+span.abtext4 {
+  margin-left: 30%;
+}
+
+
+span.abtext5 {
+  margin-left: 23%;
+}
+
+
+span.abtext6, span.abtext7, span.abtext8 {
+  font-size: 2.25vw;
+}
+
+
+span.abtext6 {
+  transform: translate(20%, -45%);
+}
+
+
+span.abtext7 {
+  transform: translate(20%, -45%);
+}
+
+
+span.abtext8 {
+  transform: translate(20%, -45%);
+}
+
+
+span.abtitle3 {
+  font-size: 3vw;
+  margin-left: 13%;
+}
+
+
+span.absubhead, span.absubhead2, span.absubhead3 {
+  font-size: 2.5vw;
+}
+
+
+span.absubhead {
+  transform: translate(98%, 0%);
+  margin-top: 5%;
+}
+
+
+
+span.absubhead2 {
+  transform: translate(160%, 0%);
+  margin-top: 5%;
+}
+
+
+span.absubhead3 {
+  transform: translate(190%, 0%);
+  margin-top: 5%;
+}
+
+
+.abouthead {
+  font-size: 2.75vw;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Comms Tablet  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.mobilewrapper {
+  overflow-y: hidden;
+}
+
+
+.commwrapper {
+  background-image: url(images/Base.png);
+  background-repeat: no-repeat;
+  background-size: 75% 100%;
+  height: 48vw;
+  width: 100%;
+  margin: auto;
+  overflow-y: hidden;
+}
+
+
+.commcontainer {
+  width: 70%;
+  height: 90%;
+  transform: translate(22%, 19%);
+}
+
+
+.commwatermark {
+  display: block;
+  width: 35%;
+  height: 25%;
+  transform: translate(1vw, -106%);
+}
+
+
+/*~~~~~~~~~~~~~~~ Comm Buttons Tablet ~~~~~~~~~~~~~~~*/
+
+
+.commbtnall {
+  width: 95%;
+  transform: translate(2.75%, 0%);
+}
+
+
+.commnav {
+  width: 100%;
+  max-width: 100%;
+  transform: translate(0%, -285%);
+}
+
+
+.commbtn, .commbtnf {
+  display: inline-block;
+  transition: transform .4s;
+  width: 33%;
+  max-width: 33%;
+  height: auto;
+}
+
+
+.commbtn, .commbtnm, .commbtnf {
+  transition: transform .4s;
+  width: 75%;
+  height: auto;
+}
+
+
+.commbtnmain {
+  width: 60%;
+  transform: translate(45%, 30%);
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Char Gallery Tablet  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~ Char Slideshow Tablet ~~~~~~~~~~~~~~~*/
+
+
+.charmobilewrapper {
+  overflow-y: scroll;
+}
+
+
+.charwrapper {
+  background-image: url(images/Base\ Gallery.png);
+  background-repeat: no-repeat;
+  background-size: 80% 100%;
+  margin: auto;
+  height: 210vw;
+}
+
+
+.charcontainer {
+  width: 69%;
+  height: 100%;
+  transform: translate(22.5%, 8%);
+}
+
+
+.charbody {
+  height: 100%;
+  transform: translate(8%, 0%);
+  overflow-y: hidden;
+}
+
+
+.charbtnall {
+  width: 100%;
+  max-width: 100%;
+  transform: translate(3%, 0%);
+}
+
+
+.charbtn {
+  display: inline-block;
+  transition: transform .4s;
+  width: 31%;
+  max-width: 31%;
+  height: auto;
+}
+
+
+span.gallerytext, span.gallerytext2, span.gallerytext3 {
+  font-size: 3.5vw;
+  margin-top: 5%;
+}
+
+
+span.gallerytext {
+  margin-left: 39%;
+}
+
+
+span.gallerytext2 {
+  margin-left: 36%;
+}
+
+
+span.gallerysubtext, span.gallerysubtext2, span.gallerysubtext3 {
+  font-size: 2.5vw;
+}
+
+
+span.chargallerynotif {
+  font-size: 2.75vw;
+}
+
+
+.slideshow-container {
+  max-width: 60%;
+}
+
+
+.prev {
+  margin-left: -5.5vw;
+}
+
+/* Position the "next button" to the right */
+.next {
+  margin-left: 40.5vw;
+  border-radius: 0px 10px 10px 0px;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Logo Gallery Tablet  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~ Logo Main Tablet ~~~~~~~~~~~~~~~*/
+
+
+.logomobilewrapper {
+  overflow-y: scroll;
+}
+
+
+.logowrapper {
+  background-image: url(images/Base\ Gallery.png);
+  background-repeat: no-repeat;
+  background-size: 80% 100%;
+  margin: auto;
+  height: 150vw;
+}
+
+
+.logocontainer {
+  width: 69%;
+  height: 100%;
+  transform: translate(22.5%, 8%);
+}
+
+
+.logobody {
+  height: 100%;
+  transform: translate(8%, 0%);
+  overflow-y: hidden;
+}
+
+
+.logobtnall {
+  width: 100%;
+  max-width: 100%;
+  transform: translate(3%, 0%);
+}
+
+
+.logobtn {
+  display: inline-block;
+  transition: transform .4s;
+  width: 31%;
+  max-width: 31%;
+  height: auto;
+}
+
+
+span.logotext, span.logotext2 {
+  font-size: 3.5vw;
+  margin-top: 5%;
+}
+
+
+span.logotext {
+  margin-left: 39%;
+}
+
+
+span.logotext2 {
+  margin-left: 23%;
+}
+
+
+span.logosubtext, span.logosubtext2 {
+  font-size: 2.5vw;
+}
+
+
+span.logonotif {
+  font-size: 2.75vw;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Stream Gallery Tablet  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+.streammobilewrapper, .gamemobilewrapper {
+  overflow-y: scroll;
+}
+
+
+.streamwrapper {
+  background-image: url(images/Base\ Gallery.png);
+  background-repeat: no-repeat;
+  background-size: 80% 100%;
+  margin: auto;
+  height: 315vw;
+}
+
+
+.streamcontainer {
+  width: 69%;
+  height: 100%;
+  transform: translate(22.5%, 8%);
+}
+
+
+.streambody {
+  height: 100%;
+  transform: translate(8%, 0%);
+  overflow-y: hidden;
+}
+
+
+.streambtnall {
+  width: 100%;
+  max-width: 100%;
+  transform: translate(3%, 0%);
+}
+
+
+.streambtn {
+  display: inline-block;
+  transition: transform .4s;
+  width: 31%;
+  max-width: 31%;
+  height: auto;
+}
+
+
+span.streamtext, span.streamtext2, span.streamtext3, span.streamtext4, span.streamtext5, span.streamtext6 {
+  font-size: 3.5vw;
+  margin-top: 5%;
+}
+
+span.streamsubtext, span.streamsubtext2, span.streamsubtext3, span.streamsubtext4, span.streamsubtext5, span.streamsubtext6, span.streamsubtext8, span.streamsubtext9, span.streamsubtext10 {
+  font-size: 2.5vw;
+}
+
+
+span.streamsubtext7 {
+  font-size: 1.5vw;
+  margin-left: 4%;
+}
+
+
+span.streamsubtext9 {
+  font-size: 1.5vw;
+  margin-left: 39%;
+}
+
+
+.streamgallerynotif {
+  font-size: 2.75vw;
+}
+
+
+.mySlides1 {
+  transform: translate(4%, 0%);
+}
+
+
+.mySlides2 {
+  transform: translate(3%, 0%);
+}
+
+
+.mySlides3 {
+  width: 70%;
+  transform: translate(18%, 0%);
+}
+
+.mySlides3.next {
+  margin-left: 2%;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Game Gallery Tablet  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.gamewrapper {
+  background-image: url(images/Base\ Gallery.png);
+  background-repeat: no-repeat;
+  background-size: 80% 100%;
+  margin: auto;
+  height: 170vw;
+}
+
+
+.gamecontainer {
+  width: 69%;
+  height: 100%;
+  transform: translate(22.5%, 8%);
+}
+
+
+.gamebody {
+  height: 100%;
+  transform: translate(8%, 0%);
+  overflow-y: hidden;
+}
+
+
+.gamebtnall {
+  width: 100%;
+  max-width: 100%;
+  transform: translate(3%, 0%);
+}
+
+
+.gamebtn {
+  display: inline-block;
+  transition: transform .4s;
+  width: 31%;
+  max-width: 31%;
+  height: auto;
+}
+
+
+span.gametext, span.gametext2, span.gametext3, span.gametext4 {
+  font-size: 3.5vw;
+  margin-top: 5%;
+}
+
+span.gamesubtext, span.gamesubtext2, span.gamesubtext3, span.gamesubtext4, span.gamesubtext5, span.gamesubtext6 {
+  font-size: 2.5vw;
+}
+
+
+span.gamesubtext6 {
+  font-size: 1.5vw;
+}
+
+span.gamenotif, span.animnotif {
+  font-size: 2.75vw;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Anim Gallery Tablet  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.animwrapper {
+  background-image: url(images/Base\ Gallery.png);
+  background-repeat: no-repeat;
+  background-size: 80% 100%;
+  margin: auto;
+  height: 200vw;
+}
+
+
+.animcontainer {
+  width: 69%;
+  height: 100%;
+  transform: translate(22.5%, 8%);
+}
+
+
+.animbody {
+  height: 100%;
+  transform: translate(8%, 0%);
+  overflow-y: hidden;
+}
+
+
+.animbtnall {
+  width: 100%;
+  max-width: 100%;
+  transform: translate(3%, 0%);
+}
+
+
+.animbtn {
+  display: inline-block;
+  transition: transform .4s;
+  width: 31%;
+  max-width: 31%;
+  height: auto;
+}
+
+
+  }

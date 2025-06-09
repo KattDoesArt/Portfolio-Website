@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+* {
+  box-sizing: border-box;
+}</style>
+
+<!--~~~~~ Head ~~~~~-->
+
+
+<head>
+  <link rel="icon" href="images/emote1.png" type="image/png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="final.css">
+  <title>Katt Does Art's Portfolio :: OC Design</title>
+</head>
+    
+
+<!--~~~~~ Body ~~~~~-->
+<body>
+<div id="wrapper">
+    
+<!--~~~~~ Header ~~~~~-->
+<div class="charmobilewrapper">
+<div class="charwrapper">
+<div class="charcontainer">
+
+<!--~~~~~ Main ~~~~~-->
+
+    <div class="charbtnall">
+      <div class="charbtn">
+        <a href='index.html'><img src="images/HomeButton.png" alt="about"></a>
+      </div>
+      <div class="charbtn">
+        <a href='comms.html'><img src="images/PriceButton.png" alt="comms"></a>
+      </div>
+      <div class="charbtn">
+        <a href='tos.html'><img src="images/ToSButton.png" alt="ToS"></a>
+      </div></div>
+
+
+<!--~~~~~ Body ~~~~~-->
+
+<div class="charbody">
+
+    <span class="gallerytext">Bust $35*</span><br>
+    <span class="gallerysubtext">A fully shaded bust image of an OC of your choosing.</span>
+      <div class="slideshow-container">
+        <div class="mySlides1">
+          <img src="images/fightingbust.png" id="border" style="width:100%">
+        </div>
+        <div class="mySlides1">
+          <img src="images/kattbust.png" id="border" style="width:100%">
+        </div>
+        <div class="mySlides1">
+          <img src="images/mainimg.png" id="border" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+      </div>
+    
+
+      <span class="gallerytext2">Knee $50*</span><br>
+      <span class="gallerysubtext2">A fully shaded knee of an OC of your choosing.</span>
+        <div class="slideshow-container">
+          <div class="mySlides2">
+            <img src="images/elfknee.jpg" id="border" style="width:100%">
+          </div>
+          <div class="mySlides2">
+            <img src="images/monsterknee.jpg" id="border" style="width:100%">
+          </div>
+          <div class="mySlides2">
+            <img src="images/darthknee.png" id="border" style="width:100%">
+          </div>
+          <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+        </div>
+    
+
+      <span class="gallerytext3">Desktop Background $75*</span><br>
+      <span class="gallerysubtext3">A full scene for your desktop background.</span>
+        <div class="slideshow-container">
+          <div class="mySlides3">
+            <img src="images/pamdt.jpg" id="border" style="width:100%">
+          </div>
+          <div class="mySlides3">
+            <img src="images/meloettadt.jpg" id="border" style="width:100%">
+          </div>
+          <div class="mySlides3">
+            <img src="images/bettydt.jpg" id="border" style="width:100%">
+          </div>
+            <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+        </div>
+
+
+      <div class="chargallerytextblock"><span class="chargallerynotif">Please Note!</span>
+      <span class="chargallerynotif">These are base prices. Price is subject to change based on image complexity, background details, size, etc.</span></div>
+    
+
+<!--~~~~~ Script ~~~~~-->
+
+
+        <script>
+        var slideIndex = [1,1,1];
+        var slideId = ["mySlides1", "mySlides2", "mySlides3"]
+        showSlides(1, 0);
+        showSlides(1, 1);
+        showSlides(1, 2);
+    
+        function plusSlides(n, no) {
+          showSlides(slideIndex[no] += n, no);
+        }
+    
+        function showSlides(n, no) {
+          var i;
+          var x = document.getElementsByClassName(slideId[no]);
+          if (n > x.length) {slideIndex[no] = 1}    
+          if (n < 2) {slideIndex[no] = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          x[slideIndex[no]-1].style.display = "block";  
+        }
+        </script>
+
+        
+      </div>
+    </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
